@@ -7,7 +7,6 @@ export const getgeolocation =async (city)=>{
     }
     const data = await result.json()
     const place = data.results[0];
-    console.log(place)
     return {
         name: place.name,
         lat:  place.latitude,

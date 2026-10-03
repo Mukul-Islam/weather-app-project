@@ -61,6 +61,8 @@ export default function LocationModal({ onClose }) {
             <X />{" "}
           </button>
         </div>
+
+        {/* form submission */}
         <div className="px-4 ">
           <form onSubmit={eventHandler} className="space-y-5">
             <input
