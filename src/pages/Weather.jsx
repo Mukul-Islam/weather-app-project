@@ -92,7 +92,7 @@ export default function Weather() {
       return {
         type: "pleasant",
         label: "Perfect Day",
-        text: "The weather looks somfortable today. Enjoy you Day!"
+        text: "The weather looks comfortable today. Enjoy you Day!"
       };
     
     
@@ -116,7 +116,7 @@ export default function Weather() {
                 </div>
                 <div className="flex justify-between items-center gap-16">
                   <h3 className="text-6xl text-purple-900 font-extrabold">
-                    {weather?.temperature}
+                    {weather?.temperature} C
                   </h3>
                   <p className="text-4xl text-purple-800 font-extrabold">
                     {weather?.description}
